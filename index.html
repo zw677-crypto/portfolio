@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhouxi Wan | Personal Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        nav {
+            background-color: white;
+            padding: 18px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #1f2937;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 55px 25px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: #1f2937;
+        }
+
+        .statement {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-size: 18px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background-color: #e5e7eb;
+            padding: 12px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .project-card h3 {
+            margin-bottom: 12px;
+            color: #1f2937;
+        }
+
+        .project-card p {
+            margin-bottom: 10px;
+        }
+
+        .project-type {
+            font-size: 14px;
+            color: #666;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Zhouxi Wan</h1>
+    <p>Finance Student | Rutgers University</p>
+</header>
+
+<nav>
+    <a href="#statement">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+</nav>
+
+<section id="statement">
+    <h2>Personal Statement</h2>
+
+    <div class="statement">
+        I am a Finance student at Rutgers University interested in applying financial analysis, data skills, and business knowledge to real-world problems and future professional opportunities.
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Microsoft Excel</div>
+        <div class="skill">Data Analysis</div>
+        <div class="skill">Financial Analysis</div>
+        <div class="skill">Marketing</div>
+        <div class="skill">Business Communication</div>
+        <div class="skill">Research</div>
+        <div class="skill">Teamwork</div>
+        <div class="skill">Presentation</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Marketing Strategy Project</h3>
+            <p>
+                Completed a marketing project analyzing a major brand's strategy,
+                target customers, positioning, and promotional approach. The project
+                strengthened my understanding of consumer behavior and business strategy.
+            </p>
+            <div class="project-type">Rutgers University Course Project</div>
+        </div>
+
+        <div class="project-card">
+            <h3>Statistics & Data Analysis Project</h3>
+            <p>
+                Used Excel and statistical methods to organize, analyze, and interpret
+                datasets. I worked with graphs, probability concepts, and data-based
+                conclusions to communicate results clearly.
+            </p>
+            <div class="project-type">Rutgers University Course Project</div>
+        </div>
+
+        <div class="project-card">
+            <h3>Academic Writing Portfolio</h3>
+            <p>
+                Developed a collection of academic writing assignments through multiple
+                stages of drafting, revision, and reflection. The project improved my
+                professional writing, organization, and communication skills.
+            </p>
+            <div class="project-type">Rutgers University Academic Project</div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Zhouxi Wan | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
